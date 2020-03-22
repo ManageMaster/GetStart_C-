@@ -1,6 +1,7 @@
 # set binary name
 set(BinName "Start")
 
+
 cmake_minimum_required(VERSION 3.5.1)
 
 #1.set binary name
