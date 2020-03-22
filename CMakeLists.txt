@@ -1,11 +1,10 @@
 # set binary name
-
-
+set(BinName "Start")
 
 cmake_minimum_required(VERSION 3.5.1)
 
 #1.set binary name
-PROJECT(HelloWorld)
+PROJECT(${BinName})
 
 #2.add include directory
 INCLUDE_DIRECTORIES(./system/include)
@@ -18,7 +17,7 @@ aux_source_directory(. SRC_LIST)
 aux_source_directory(./system SRC_LIST)
 
 #5.add source directory with binary
-add_executable(HelloWorld ${SRC_LIST})
+add_executable(${BinName} ${SRC_LIST})
 
 #6.link lib file on the binary(if needed)
-# target_link_libraries (HelloWorld ${PROJECT_DIR}/(path of .so))
+# target_link_libraries (${BinName} ${PROJECT_DIR}/(path of .so))
