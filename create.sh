@@ -1,3 +1,9 @@
+#create Auto head file
+commit_id=`git rev-parse HEAD`
+echo "#pragma once\n" > include/Auto_Head.h
+echo "/*WARNING:this head file was created automatically by shell,please do not modify anything in this file!!!*/\n" >> include/Auto_Head.h
+echo "#define COMMIT_ID \""$commit_id"\" \n" >> include/Auto_Head.h
+
 
 make_binary(){
 if [ ! -d "build/" ];then

@@ -2,6 +2,7 @@
 
 //its a c++ hello world demo
 int main() {
-	LOG_INFO("hello world");
+	printf("Hello world!\n");
+	printf("Git commit ID:"COMMIT_ID"\n");
 	return 0;
 }

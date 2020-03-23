@@ -1,5 +1,7 @@
 #pragma once
 
+#include "Auto_Head.h"
+
 #include <iostream>
 #include <unistd.h>
 #include <assert.h>

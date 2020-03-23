@@ -8,6 +8,7 @@ cmake_minimum_required(VERSION 3.5.1)
 PROJECT(${BinName})
 
 #2.add include directory
+INCLUDE_DIRECTORIES(./include)
 INCLUDE_DIRECTORIES(./system/include)
 
 #3.get project path automaticly
