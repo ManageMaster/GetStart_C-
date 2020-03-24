@@ -1,5 +1,5 @@
 # set binary name
-set(BinName "Start")
+set(BinName "CPPStart")
 
 
 cmake_minimum_required(VERSION 3.5.1)

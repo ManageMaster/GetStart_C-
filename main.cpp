@@ -2,7 +2,7 @@
 
 //its a c++ hello world demo
 int main() {
-	printf("Hello world!\n");
-	printf("Git commit ID:"COMMIT_ID"\n");
+	std::cout << "hello " << PROJECT_NAME << std::endl;
+	std::cout << "Git CommitID:" << COMMIT_ID << std::endl;
 	return 0;
 }
